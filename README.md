@@ -40,14 +40,16 @@ Fashion Market is a full-featured online shopping solution that provides users w
 
 - 👤 **User Features**
   - Modern Login and Signup pages
-  - User profile management
-  - Order history tracking
 
 - 📱 **Additional Features**
   - Contact page with FAQ toggle
   - Social media integration
   - Responsive navigation with breadcrumbs
   - Advanced search functionality
+
+## 🔍 Product Search Functionality
+
+The project includes a powerful product search feature that allows users to quickly find products by name, category, or keywords. This search functionality is optimized for performance, achieving **O(1) time complexity** through efficient data structures and algorithms. The search drawer interface provides a seamless user experience, displaying real-time results as users type.
 
 ## 🛠️ Tech Stack
 
