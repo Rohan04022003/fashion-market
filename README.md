@@ -8,7 +8,7 @@ Fashion Market is a full-featured online shopping solution that provides users w
 
 ## 🚀 Live Demo
 
-[Live Demo](https://your-vercel-deployment-link.com) <!-- Update this link after deployment -->
+[Live Demo]([https://your-vercel-deployment-link.com](https://fashion-market-x22z.vercel.app/)) <!-- Update this link after deployment -->
 
 ## ✨ Features
 
