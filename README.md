@@ -1,28 +1,25 @@
-<<<<<<< HEAD
-# 🛍️ Modern E-Commerce Platform
+# 🛍️ Fashion Market
 
-A modern, responsive e-commerce frontend built with React, TypeScript, and shadcn/ui, featuring a sleek design and robust functionality.
+A modern, responsive e-commerce frontend built with React, TypeScript, Tailwind CSS, and shadcn/ui. Includes product filtering, cart, simulated checkout (Card, UPI, COD), and a sleek UI for a seamless shopping experience.
 
 ## 📝 Overview
 
-This project is a frontend-only e-commerce platform that provides users with a seamless and visually appealing shopping experience. It showcases a modern UI, smooth interactions, and essential e-commerce features across various product categories.
-
-> 🔒 Note: This is a **frontend-only** project. Features like authentication, address storage, and payment are **simulated** for demonstration purposes.
+Fashion Market is a full-featured online shopping solution that provides users with a seamless shopping experience. Built with modern web technologies, it offers a responsive design, intuitive navigation, and comprehensive shopping features across multiple product categories.
 
 ## 🚀 Live Demo
 
-[Live Demo](https://your-vercel-deployment-link.com) _(Coming Soon)_
+[Live Demo](https://your-vercel-deployment-link.com) <!-- Update this link after deployment -->
 
 ## ✨ Features
 
 - 🎨 **Modern UI/UX**
   - Clean and intuitive interface using shadcn/ui components
-  - Fully responsive across devices
+  - Responsive design for all devices
   - Smooth animations and transitions
-  - Skeleton loaders for better experience
+  - Skeleton loading states for better UX
 
 - 🛒 **Shopping Experience**
-  - Product categories:
+  - Multiple product categories:
     - Men's Fashion
     - Women's Fashion
     - Kids' Collection
@@ -30,35 +27,31 @@ This project is a frontend-only e-commerce platform that provides users with a s
     - Cosmetics
     - Shoes
   - Advanced product filtering
-  - Search drawer with product suggestions
+  - Search functionality with drawer interface
   - Detailed product views
-  - Add to and remove from cart functionality
+  - Add to cart and remove functionality
   - Real-time cart updates
 
-- 💳 **Simulated Checkout**
-  - Address selection and management
-  - Order summary view
-  - Payment options:
-    - 💳 Card (Simulated)
-    - 🏦 UPI (Simulated)
-    - 💵 Cash on Delivery (Simulated)
-  - Final order confirmation UI
+- 💳 **Checkout Process**
+  - Streamlined checkout flow (Address ➝ Payment ➝ Order Summary)
+  - Address management
+  - Simulated payment options (Card, UPI, COD)
+  - Order summary and confirmation
 
-- 👤 **User Experience**
-  - Simulated login/signup flow
-  - Profile section (frontend only)
-  - View past orders
-  - Wishlist placeholder
+- 👤 **User Features**
+  - Modern Login and Signup pages
+  - User profile management
+  - Order history tracking
 
-- 📱 **Extra Features**
-  - Contact page with FAQ sidebar
+- 📱 **Additional Features**
+  - Contact page with FAQ toggle
   - Social media integration
-  - Breadcrumbs for navigation
-  - Smooth page transitions
+  - Responsive navigation with breadcrumbs
+  - Advanced search functionality
 
 ## 🛠️ Tech Stack
 
-- **Frontend**
+- **Frontend Framework**
   - React 19
   - TypeScript
   - Vite
@@ -67,7 +60,7 @@ This project is a frontend-only e-commerce platform that provides users with a s
   - Tailwind CSS
   - shadcn/ui
   - Embla Carousel
-  - Lucide Icons
+  - Lucide React Icons
 
 - **State Management**
   - React Context API
@@ -76,16 +69,17 @@ This project is a frontend-only e-commerce platform that provides users with a s
 - **Routing**
   - React Router DOM
 
-- **Tooling**
+- **Development Tools**
   - ESLint
   - TypeScript
-  - Prettier
+  - Vite
 
 ## 📁 Project Structure
 
 ```
 src/
 ├── assets/         # Static assets
+├── components/     # Reusable UI components
 │   ├── ui/        # shadcn/ui components
 │   ├── Skeletons/ # Loading state components
 │   └── ...        # Other components
@@ -108,12 +102,12 @@ src/
 └── utils/         # Helper functions
 ```
 
-## 🚀 Getting Started
+## 🏁 Getting Started
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/e-commerce.git
-   cd e-commerce
+   git clone https://github.com/Rohan04022003/fashion-market.git
+   cd fashion-market
    ```
 
 2. **Install dependencies**
@@ -135,7 +129,7 @@ src/
 
 This project is configured for easy deployment on Vercel:
 
-1. Push your code to a GitHub repository
+1. Push your code to the GitHub repository
 2. Import the project in Vercel
 3. Vercel will automatically detect the Vite configuration and deploy accordingly
 
@@ -158,7 +152,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Embla Carousel](https://www.embla-carousel.com/) for the carousel functionality
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-=======
-# fashion-market
-A modern, responsive e-commerce frontend built with React, TypeScript, and shadcn/ui. Includes product filtering, cart, simulated checkout (Card, UPI, COD), and a sleek UI for a seamless shopping experience.
->>>>>>> 84b7bec412e7bef0861e4976c08e4cd93dc6deac
+
+---
+
+> **GitHub:** [https://github.com/Rohan04022003/fashion-market](https://github.com/Rohan04022003/fashion-market)
