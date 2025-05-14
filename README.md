@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛍️ Modern E-Commerce Platform
 
 A modern, responsive e-commerce frontend built with React, TypeScript, and shadcn/ui, featuring a sleek design and robust functionality.
@@ -157,3 +158,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Embla Carousel](https://www.embla-carousel.com/) for the carousel functionality
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+=======
+# fashion-market
+A modern, responsive e-commerce frontend built with React, TypeScript, and shadcn/ui. Includes product filtering, cart, simulated checkout (Card, UPI, COD), and a sleek UI for a seamless shopping experience.
+>>>>>>> 84b7bec412e7bef0861e4976c08e4cd93dc6deac
