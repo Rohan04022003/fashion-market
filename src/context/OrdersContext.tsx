@@ -33,7 +33,6 @@ export const OrderProvider = ({ children }: { children: ReactNode }) => {
             return;
         }
         localStorage.setItem("order-items", JSON.stringify(Orders));
-        console.log("stored..")
     }, [Orders]);
 
     function handleOrders(paymentMethod: string) {

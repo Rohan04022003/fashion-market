@@ -22,7 +22,6 @@ export const BuyNowProvider = ({ children }: { children: ReactNode }) => {
     const storedItems = localStorage.getItem("buyItems");
     if (storedItems) {
       setBuyItems(JSON.parse(storedItems));
-      console.log(buyItems)
     }
   }, []);
 
