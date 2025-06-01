@@ -45,12 +45,12 @@ export default function OrderPage() {
                                     <AlertDialog>
                                         <AlertDialogTrigger asChild><Button className="bg-red-500 text-white hover:bg-red-400 text-[.7rem] rounded-[5px]" size={"sm"}>Cancel Order</Button></AlertDialogTrigger>
                                         <AlertDialogContent>
-                                            <AlertDialogHeader>
-                                                <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-                                                <AlertDialogDescription>
-                                                    This action cannot be undone. This will permanently delete your Order.
-                                                </AlertDialogDescription>
-                                            </AlertDialogHeader>
+<AlertDialogHeader>
+  <AlertDialogTitle>Cancel Order?</AlertDialogTitle>
+  <AlertDialogDescription>
+    Are you sure you want to cancel this order? This action is permanent and cannot be undone.
+  </AlertDialogDescription>
+</AlertDialogHeader>
                                             <AlertDialogFooter>
                                                 <AlertDialogCancel className="rounded-[5px] text-orange-500 hover:text-orange-600">Cancel</AlertDialogCancel>
                                                 <AlertDialogAction onClick={() => CancelOrder(order.orderDetails.orderId, order.orderDetails.totalPayableAmount, order.orderDetails.paymentMethod)} className="bg-red-500 text-white hover:bg-red-400 rounded-[5px]">Continue</AlertDialogAction>
