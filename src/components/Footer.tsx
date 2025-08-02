@@ -53,7 +53,7 @@ const Footer = () => {
         <div>
           <h3 className="text-base font-semibold mb-3">Follow Us</h3>
           <div className="flex gap-3 mb-4">
-            <SocialIcon href="https://rohan04022003.github.io/myPortfolio/" label="Portfolio">
+            <SocialIcon href="https://rohan-portfolio-eta.vercel.app/" label="Portfolio">
               <Briefcase />
             </SocialIcon>
             <SocialIcon href="https://www.linkedin.com/in/rohan-mahto-5521aa253/" label="LinkedIn">
