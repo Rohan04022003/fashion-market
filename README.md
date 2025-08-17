@@ -8,7 +8,7 @@ Fashion Market is a full-featured online shopping solution that provides users w
 
 ## 🚀 Live Demo
 
-[Live Demo](https://fashion-market-x22z.vercel.app/) <!-- Update this link after deployment -->
+[Live Demo](https://your-vercel-deployment-link.com) <!-- Update this link after deployment -->
 
 ## ✨ Features
 
@@ -146,8 +146,8 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 5. Open a Pull Request
 
 ## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
