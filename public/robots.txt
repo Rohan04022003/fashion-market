@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin
+Allow: /
+Sitemap: https://fashion-market-x22z.vercel.app/sitemap.xml
