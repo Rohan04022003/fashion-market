@@ -62,39 +62,57 @@ const Home = () => {
   return (
     <div className="">
       {/* Hero Banner Section */}
-      <div className="z-10 w-full flex justify-center py-4 relative">
-        <div className="overflow-hidden w-full px-2 md:w-11/12 relative" ref={emblaRef}>
-          <div className="flex">
-            {slides.map((slide, index) => (
-              <div key={index} className="flex-[0_0_100%] flex justify-center mx-2">
-                <Link aria-label={`hero banner-${index}`} to={`/${slide.category.toLowerCase()}`} className="w-full">
-                  <img
-                  alt='banner-slide'
-                    src={slide.url}
-                    className="shadow-lg object-cover w-full h-[200px] sm:h-[300px] md:h-[400px] rounded-[5px] cursor-pointer"
-                  />
-                </Link>
-              </div>
-            ))}
-          </div>
+<div className="z-10 w-full flex justify-center py-4 relative">
+  {/* Embla carousel container */}
+  <div className="overflow-hidden w-full px-2 md:w-11/12 relative" ref={emblaRef}>
+    <div className="flex">
+      {slides.map((slide, index) => (
+        <div
+          key={index}
+          className="flex-[0_0_100%] flex justify-center mx-1 sm:mx-2"
+        >
+          <Link
+            aria-label={`hero banner-${index}`}
+            to={`/${slide.category.toLowerCase()}`}
+            className="w-full"
+          >
+            <img
+              fetchPriority={index === 0 ? "high" : "auto"}
+              loading={index === 0 ? "eager" : "lazy"}
+              alt={`Banner slide ${index + 1}`}
+              src={slide.url}
+              className="shadow-lg object-cover w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] rounded-[5px] cursor-pointer"
+            />
+          </Link>
         </div>
+      ))}
+    </div>
+  </div>
 
-        <div className="slide-indicator flex items-center gap-2 absolute -bottom-2 left-1/2 -translate-x-1/2 z-20">
-          {slides.map((_, index) => (
-            <button
-            aria-label={`slide - ${index}`}
-              key={index}
-              onClick={() => emblaApi?.scrollTo(index)}
-              className={`w-4 h-2 rounded-full cursor-pointer ${index === slideIndex
-                  ? 'bg-orange-700'
-                  : theme.theme === 'dark'
-                    ? 'bg-gray-300'
-                    : 'bg-gray-500'
-                }`}
-            ></button>
-          ))}
-        </div>
-      </div>
+  {/* Slide indicators */}
+  <div className="slide-indicator flex items-center gap-2 absolute -bottom-2 left-1/2 -translate-x-1/2 z-20">
+    {slides.map((_, index) => {
+      const isActive = index === slideIndex;
+      const bgColor =
+        isActive
+          ? "bg-orange-700"
+          : theme.theme === "dark"
+          ? "bg-gray-300"
+          : "bg-gray-500";
+
+      return (
+        <button
+          key={index}
+          aria-label={`Slide ${index + 1}`}
+          role="button"
+          onClick={() => emblaApi?.scrollTo(index)}
+          className={`w-4 h-2 rounded-full cursor-pointer ${bgColor}`}
+        />
+      );
+    })}
+  </div>
+</div>
+
 
       {/* Categories Preview */}
       <div className="mt-12  px-2 sm:px-6 md:px-12 lg:px-16">
